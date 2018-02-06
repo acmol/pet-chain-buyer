@@ -1,0 +1,6 @@
+matplotlib
+threadpool
+requests
+pillow
+pytesseract
+

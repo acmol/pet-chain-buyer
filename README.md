@@ -4,9 +4,9 @@
 参考 [pet-chain](https://github.com/yanwii/pet-chain) 项目
 
 # 使用方法
-- 配置好需要的依赖库
-- 用自己的headers替换config目录下headers.txt文件内容
-- 编辑config/config.ini文件配置不同种类狗的最高买入价格以及是否自动填写验证码
+- 配置好需要的依赖库(执行pip install -r requirements.txt)
+- 把自己的headers写入config目录下headers.txt文件中(可参考headers.txt.template)
+- 复制config/config.ini.template为config/config.ini，随后编辑config/config.ini文件配置不同种类狗的最高买入价格以及是否自动填写验证码
 
 ### 1. 手动输入验证码
 ##### a. 先在命令行执行 `python pic.py`，加载验证码，当有新的验证码时会及时刷新
